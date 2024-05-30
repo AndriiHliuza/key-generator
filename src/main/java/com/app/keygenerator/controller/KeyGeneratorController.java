@@ -16,7 +16,7 @@ public class KeyGeneratorController {
     }
 
     @GetMapping("/key/hmac")
-    public String generateHMACEncryptionKeyForJwt() {
-        return keyGeneratorService.generateHMACEncryptionKeyForJwt();
+    public String generateHMACSHA256CodeForJwt() { //hmac sha-256 code
+        return keyGeneratorService.generateHMACSHA256CodeForJwt();
     }
 }

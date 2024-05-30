@@ -19,7 +19,7 @@ public class KeyGeneratorService {
         return keyHex;
     }
 
-    public String generateHMACEncryptionKeyForJwt() {
+    public String generateHMACSHA256CodeForJwt() { //hmac sha-256 code
         byte[] keyBytes = new byte[32];
         SecureRandom secureRandom = new SecureRandom();
         secureRandom.nextBytes(keyBytes);
