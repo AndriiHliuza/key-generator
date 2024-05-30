@@ -6,7 +6,7 @@
 <p>Mainly used to generate keys for the <a href="https://github.com/AndriiHliuza/messenger">WebTalk messenger BACK-END project</a></p>
 
 <!-- Endpoints -->
-## Endpoint
+## Endpoints
 <ul>
     <li><code>/key/hmac</code> - to generate 32 character HMAC SHA-256 code.</li>
     <li><code>/key/hmac</code> - to generate 128 bit AES key.</li>
