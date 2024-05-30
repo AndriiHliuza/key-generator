@@ -9,5 +9,5 @@
 ## Endpoints
 <ul>
     <li><code>/key/hmac</code> - to generate 32 character HMAC SHA-256 code.</li>
-    <li><code>/key/hmac</code> - to generate 128 bit AES key.</li>
+    <li><code>/key/aes</code> - to generate 128 bit AES key.</li>
 </ul>
